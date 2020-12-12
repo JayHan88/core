@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e80be84-6fd2-4fb2-b4bc-359419a8f29f" name="Default Changelist" comment="order system without spring 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+    <list default="true" id="0e80be84-6fd2-4fb2-b4bc-359419a8f29f" name="Default Changelist" comment="order system without spring 3">
+      <change afterPath="$PROJECT_DIR$/out/production/resources/appConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beandefinition/BeanDefinitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/MemberApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/MemberApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/OrderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/OrderApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/member/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/member/MemberServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/member/MemberServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/order/OrderServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/order/OrderServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -101,85 +104,95 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderApp">
-    <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.OrderApp" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BeanDefinitionTest.findApplicationBean">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.order.*" />
+          <option name="PATTERN" value="hello.core.beanfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.order" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
-      <option name="METHOD_NAME" value="createOrder" />
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
+      <option name="METHOD_NAME" value="findAllBeanByObjectType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateDiscountPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.discount.*" />
+          <option name="PATTERN" value="hello.core.beanfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.discount" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.discount.RateDiscountPolicyTest" />
+      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
+      <option name="METHOD_NAME" value="findAllBeanByParentType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanDefinitionTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.beandefinition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.beandefinition" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beandefinition.BeanDefinitionTest" />
+      <option name="METHOD_NAME" value="findApplicationBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlAppContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.xml" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.xml.XmlAppContext" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello.core in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XmlAppContext.xmlAppContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.*" />
+          <option name="PATTERN" value="hello.core.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="hello.core.xml" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.xml.XmlAppContext" />
+      <option name="METHOD_NAME" value="xmlAppContext" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderApp" />
-        <item itemvalue="Application.MemberApp" />
-        <item itemvalue="JUnit.hello.core in core.test" />
-        <item itemvalue="JUnit.OrderServiceTest.createOrder" />
-        <item itemvalue="JUnit.RateDiscountPolicyTest" />
+        <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
+        <item itemvalue="JUnit.XmlAppContext" />
+        <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
+        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
+        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +235,8 @@
       <workItem from="1607350764702" duration="3277000" />
       <workItem from="1607354196881" duration="10114000" />
       <workItem from="1607483448625" duration="7506000" />
-      <workItem from="1607612850076" duration="11424000" />
+      <workItem from="1607612850076" duration="16177000" />
+      <workItem from="1607778967712" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC template">
       <created>1607516640488</created>
@@ -252,17 +266,37 @@
       <option name="project" value="LOCAL" />
       <updated>1607695682542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="order system without spring 3">
+      <created>1607699900328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607699900328</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="JDBC template" />
     <MESSAGE value="order system without spring 1" />
     <MESSAGE value="order system without spring 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="order system without spring 2" />
+    <MESSAGE value="order system without spring 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="order system without spring 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
