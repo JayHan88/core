@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e80be84-6fd2-4fb2-b4bc-359419a8f29f" name="Default Changelist" comment="automatic DI">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/autowired/allbean/AllBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/autowired/allbean/AllBeanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllBeanTest.findAllBean">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.lifeCycleTeset">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,17 +167,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanLifeCycleTest.lifeCycleTeset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="METHOD_NAME" value="basicScan" />
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="lifeCycleTeset" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTeset" />
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
         <item itemvalue="JUnit.AllBeanTest" />
         <item itemvalue="JUnit.All in core.test" />
         <item itemvalue="JUnit.AutoAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,7 @@
       <workItem from="1607483448625" duration="7506000" />
       <workItem from="1607612850076" duration="16177000" />
       <workItem from="1607778967712" duration="15946000" />
-      <workItem from="1607868287159" duration="897000" />
+      <workItem from="1607868287159" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC template">
       <created>1607516640488</created>
@@ -287,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607867788010</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="automatic DI">
+      <created>1607869757842</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607869757842</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
