@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e80be84-6fd2-4fb2-b4bc-359419a8f29f" name="Default Changelist" comment="component scan">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/HelloLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/autowired/AutowiredTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/autowired/allbean/AllBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="0e80be84-6fd2-4fb2-b4bc-359419a8f29f" name="Default Changelist" comment="automatic DI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/discount/FixDiscountPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/discount/FixDiscountPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/discount/RateDiscountPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/discount/RateDiscountPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/core/order/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/FixDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/autowired/allbean/AllBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/autowired/allbean/AllBeanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,28 +101,13 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.AllBeanTest.findAllBean">
-    <configuration name="HelloLombok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.HelloLombok" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +116,21 @@
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.autowired.allbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.autowired.allbean" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.autowired.allbean.AllBeanTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,10 +199,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
+        <item itemvalue="JUnit.AllBeanTest" />
         <item itemvalue="JUnit.All in core.test" />
         <item itemvalue="JUnit.AutoAppConfigTest" />
         <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
-        <item itemvalue="Application.HelloLombok" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +221,8 @@
       <workItem from="1607354196881" duration="10114000" />
       <workItem from="1607483448625" duration="7506000" />
       <workItem from="1607612850076" duration="16177000" />
-      <workItem from="1607778967712" duration="15441000" />
+      <workItem from="1607778967712" duration="15946000" />
+      <workItem from="1607868287159" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC template">
       <created>1607516640488</created>
@@ -293,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607861432095</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="automatic DI">
+      <created>1607867788010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607867788010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +303,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -319,7 +314,8 @@
     <MESSAGE value="order system with spring 1" />
     <MESSAGE value="Singleton Contatiner" />
     <MESSAGE value="component scan" />
-    <option name="LAST_COMMIT_MESSAGE" value="component scan" />
+    <MESSAGE value="automatic DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="automatic DI" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
